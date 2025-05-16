@@ -64,6 +64,8 @@ Based on the previous conversation and the current question:
      * If the query is in English, respond ENTIRELY in English
      * If the query is in Marathi or another Indian language, respond entirely in that same language
      * ALWAYS match the language of your response to the language of the query
+     * If the query is in English, respond in English
+     * If the query is in Marathi, respond in Marathi
 
 2.  **Response Requirements:**
      * Keep your answer extremely concise - 3-5 sentences maximum
