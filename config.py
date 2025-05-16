@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 class Settings(BaseSettings):
     """Application settings."""
-    GEMINI_API_KEY: str = ""  # Default API key
+    GEMINI_API_KEY: str = "AIzaSyDSHeQahfIPuEVBCmQCZxopN6oOVLqxVAk"  # Default API key
     GEMINI_URL: str = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent"
     MAX_CONVERSATION_HISTORY: int = 5
     
