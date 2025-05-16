@@ -4,8 +4,8 @@ from fastapi.staticfiles import StaticFiles
 import uvicorn
 import os
 
-from app.api.routes import router
-from app.config import logger
+from api.routes import router
+from config import logger
 
 # FastAPI app initialization
 app = FastAPI(

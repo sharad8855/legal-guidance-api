@@ -1,9 +1,9 @@
 from fastapi import APIRouter, HTTPException
 from fastapi.responses import FileResponse
 import os
-from app.db.models import UserQuery, LawResponse
-from app.services.llm import llm_service
-from app.config import logger
+from db.models import UserQuery, LawResponse
+from services.llm import llm_service
+from config import logger
 
 # Create router
 router = APIRouter()
